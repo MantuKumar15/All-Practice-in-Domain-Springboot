@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "spring.jpa.ddl-auto",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.ddl-auto'"
+  },
+  {
+    "name": "spring.datasource.driver",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.driver'"
+  }
+]}
