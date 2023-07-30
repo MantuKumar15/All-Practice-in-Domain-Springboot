@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+
+</title>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+    
+    <h2>Subject Registration Form: </h2>
+
+<h3>Student details*:</h3>
+
+<form action="subregister" method="post">
+
+<table>
+
+<tr>
+    <td>Class Name: </td>
+    <td><input type="classname" name="classname" placeholder="Enter Class Name"></td>
+    </tr>
+
+<tr>
+    <td>Student Name: </td>
+    <td><input type=text name="stdname" placeholder="Enter student name"></td>
+    </tr>
+
+    <tr>
+        <td>Reg No.: </td>
+        <td><input type="reg no." name="regno" placeholder="Enter Reg No."></td>
+        </tr>
+
+        <tr>
+            <td>Academic Year: </td>
+            <td><select name="Academic year">
+            <option value="-1" selected>select..</option>
+            <option value="year">2023-2024</option>
+            <option value="year">2022-2023</option>
+            <option value="year">2021-2022</option>
+            <option value="year">2020-2021</option>
+            </select></td>
+            </tr>
+
+            <tr>
+                <td>Semester: </td>
+                <td><select name="semester">
+                <option value="-1" selected>select..</option>
+                <option value="sem"> Sem 1</option>
+                <option value="sem"> Sem 2</option>
+                <option value="sem"> Sem 3</option>
+                <option value="sem"> Sem 4</option>
+                <option value="sem"> Sem 5</option>
+                <option value="sem"> Sem 6</option>
+                <option value="sem"> Sem 7</option>
+                <option value="sem"> Sem 8</option>
+                </select></td>
+                </tr>
+
+        <tr>
+            <td>Program: </td>
+            <td><select name="program">
+            <option value="-1" selected>select..</option>
+            <option value="cse">B.Tech CSE</option>
+            <option value="civil">B.Tech Civil</option>
+            <option value="ece">B.Tech ECE</option>
+            <option value="eee">B.Tech EEE</option>
+            <option value="diploma">Diploma Civil</option>
+            </select></td>
+            </tr>
+
+<tr>
+<td><h3>Subject details*:</h3></td>
+</tr>
+<tr>
+    <td>Subject Name: </td>
+    <td><input type=text name="subname" placeholder="Enter Sub Name"></td>
+    </tr>
+
+    <tr>
+        <td>Course Credit: </td>
+        <td><input type="text" name="credit" placeholder="Enter credit No"></td>
+        </tr>
+    
+        <tr>
+            <td><input type="submit" value="Add"/></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Cencle"/></td>
+            </tr>
+ 
+</table>
+</form>
+</body>
+</html>
