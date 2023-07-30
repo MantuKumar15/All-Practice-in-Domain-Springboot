@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bodyy1">
+    <img class="img" src="photo/R.png" />
+    <form class="body1" action="/add" method="post">
+        <table id="table1">
+            <h2 class="h11">Add Course Faculty</h2><br /><br />
+            <h3 class="h1">Faculty details*:</h3>
+            <tr>
+                <td>Session Year: </td>
+                <td><select id="box1" name="Academic year">
+                        <option value="-1" selected>-- select Years --</option>
+                        <option value="year">2023-2024</option>
+                        <option value="year">2022-2023</option>
+                        <option value="year">2021-2022</option>
+                        <option value="year">2020-2021</option>
+                    </select></td>
+
+                <td>Semester: </td>
+                <td><select id="box1" name="semester">
+                        <option value="-1" selected>-- Select Class --</option>
+                        <option value="sem">B.Tech CSE Sem 1</option>
+                        <option value="sem">B.Tech CSE Sem 2</option>
+                        <option value="sem">B.Tech CSE Sem 3</option>
+                        <option value="sem">B.Tech CSE Sem 4</option>
+                        <option value="sem">B.Tech CSE Sem 5</option>
+                        <option value="sem">B.Tech CSE Sem 6</option>
+                        <option value="sem">B.Tech CSE Sem 7</option>
+                        <option value="sem">B.Tech CSE Sem 8</option>
+                    </select></td>
+
+                <td>Practical Types:</td>
+                <td><select id="box1" name="program">
+                        <option value="-1" selected>-- Select Subject --</option>
+                        <option value="cse">All</option>
+                        <option value="civil">Theory</option>
+                        <option value="ece">Practical</option>
+                        <option value="eee">Tutorial</option>
+                    </select></td>
+            </tr>
+
+            <tr>
+                <td class="h22">Faculty Name: </td>
+                <td><input id="box1" type="text" name="facname" placeholder="Enter Faculty Name"></td>
+
+                <td>Upload Photo: </td>
+                <td><input id="box1" type="button" name="Photo" placeholder="upload photo"></td>
+            </tr>
+
+
+            <td>
+                <h3>Subject details*:</h3>
+            </td>
+
+            <tr>
+                <td>Subject Name: </td>
+                <td><input id="box1" type="text" name="subjname" placeholder="Enter Subject name"></td>
+
+                <td>Course Code: </td>
+                <td><input id="box1" type="code" name="code" placeholder="Enter course Code"></td>
+
+                <!-- </tr>
+    <tr> -->
+                <td>Subject Credit: </td>
+                <td><input id="box1" type="credit" name="credit" placeholder="Enter Sub credit"></td>
+            </tr>
+
+            <tr>
+                <td><input id="botton" type="submit" value="Cencle" /></td>
+
+                <td><input id="button" type="submit" value="Add Faculty" /></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
